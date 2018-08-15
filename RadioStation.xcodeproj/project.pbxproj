@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		3F36BD912122BE6900AA8E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36BD902122BE6900AA8E1B /* AppDelegate.swift */; };
-		3F36BD932122BE6900AA8E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36BD922122BE6900AA8E1B /* ViewController.swift */; };
 		3F36BD962122BE6900AA8E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F36BD942122BE6900AA8E1B /* Main.storyboard */; };
 		3F36BD982122BE6A00AA8E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F36BD972122BE6A00AA8E1B /* Assets.xcassets */; };
 		3F36BD9B2122BE6A00AA8E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F36BD992122BE6A00AA8E1B /* LaunchScreen.storyboard */; };
+		3F4AE1A021241271003120ED /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE19B21241271003120ED /* DataManager.swift */; };
+		3F4AE1A221241271003120ED /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE19D21241271003120ED /* CollectionViewCell.swift */; };
+		3F4AE1A321241271003120ED /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE19E21241271003120ED /* CollectionViewController.swift */; };
+		3F4AE1A82124127E003120ED /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F4AE1A42124127E003120ED /* stations.json */; };
+		3F4AE1A92124127E003120ED /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE1A52124127E003120ED /* Settings.swift */; };
+		3F4AE1AA2124127E003120ED /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE1A62124127E003120ED /* RadioStation.swift */; };
+		3F4AE1B521242462003120ED /* SearchCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE1B421242462003120ED /* SearchCollectionReusableView.swift */; };
+		3F4AE1B721242B53003120ED /* CollectionViewCellXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE1B621242B53003120ED /* CollectionViewCellXib.swift */; };
+		3F4AE1B921242B66003120ED /* CollectionViewCellXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4AE1B821242B66003120ED /* CollectionViewCellXib.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F36BD8D2122BE6900AA8E1B /* RadioStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F36BD902122BE6900AA8E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F36BD922122BE6900AA8E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F36BD952122BE6900AA8E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F36BD972122BE6A00AA8E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F36BD9A2122BE6A00AA8E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F36BD9C2122BE6A00AA8E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4AE19B21241271003120ED /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		3F4AE19D21241271003120ED /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		3F4AE19E21241271003120ED /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		3F4AE1A42124127E003120ED /* stations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stations.json; sourceTree = "<group>"; };
+		3F4AE1A52124127E003120ED /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3F4AE1A62124127E003120ED /* RadioStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
+		3F4AE1B421242462003120ED /* SearchCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionReusableView.swift; sourceTree = "<group>"; };
+		3F4AE1B621242B53003120ED /* CollectionViewCellXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellXib.swift; sourceTree = "<group>"; };
+		3F4AE1B821242B66003120ED /* CollectionViewCellXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCellXib.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +70,20 @@
 		3F36BD8F2122BE6900AA8E1B /* RadioStation */ = {
 			isa = PBXGroup;
 			children = (
-				3F36BD902122BE6900AA8E1B /* AppDelegate.swift */,
-				3F36BD922122BE6900AA8E1B /* ViewController.swift */,
+				3F4AE1A62124127E003120ED /* RadioStation.swift */,
+				3F4AE1A52124127E003120ED /* Settings.swift */,
+				3F4AE1A42124127E003120ED /* stations.json */,
+				3F4AE19D21241271003120ED /* CollectionViewCell.swift */,
 				3F36BD942122BE6900AA8E1B /* Main.storyboard */,
+				3F4AE19E21241271003120ED /* CollectionViewController.swift */,
+				3F4AE19B21241271003120ED /* DataManager.swift */,
+				3F36BD902122BE6900AA8E1B /* AppDelegate.swift */,
 				3F36BD972122BE6A00AA8E1B /* Assets.xcassets */,
 				3F36BD992122BE6A00AA8E1B /* LaunchScreen.storyboard */,
 				3F36BD9C2122BE6A00AA8E1B /* Info.plist */,
+				3F4AE1B421242462003120ED /* SearchCollectionReusableView.swift */,
+				3F4AE1B621242B53003120ED /* CollectionViewCellXib.swift */,
+				3F4AE1B821242B66003120ED /* CollectionViewCellXib.xib */,
 			);
 			path = RadioStation;
 			sourceTree = "<group>";
@@ -125,6 +149,8 @@
 				3F36BD9B2122BE6A00AA8E1B /* LaunchScreen.storyboard in Resources */,
 				3F36BD982122BE6A00AA8E1B /* Assets.xcassets in Resources */,
 				3F36BD962122BE6900AA8E1B /* Main.storyboard in Resources */,
+				3F4AE1B921242B66003120ED /* CollectionViewCellXib.xib in Resources */,
+				3F4AE1A82124127E003120ED /* stations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F36BD932122BE6900AA8E1B /* ViewController.swift in Sources */,
+				3F4AE1B721242B53003120ED /* CollectionViewCellXib.swift in Sources */,
+				3F4AE1A92124127E003120ED /* Settings.swift in Sources */,
+				3F4AE1B521242462003120ED /* SearchCollectionReusableView.swift in Sources */,
+				3F4AE1AA2124127E003120ED /* RadioStation.swift in Sources */,
+				3F4AE1A021241271003120ED /* DataManager.swift in Sources */,
+				3F4AE1A221241271003120ED /* CollectionViewCell.swift in Sources */,
 				3F36BD912122BE6900AA8E1B /* AppDelegate.swift in Sources */,
+				3F4AE1A321241271003120ED /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,3 +7,6 @@
 //
 
 import Foundation
+let kDebugLog = true
+let useLocalStations = true
+let stationDataURL   = "http://yoururl.com/json/stations.json"

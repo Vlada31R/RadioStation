@@ -11,8 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet weak var searchBar: UISearchBar!
-    
+
     var stations = [RadioStation]()
     
     override func viewDidLoad() {
@@ -80,5 +79,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, 
             }
         }
     }
+    
+    
 }
 
